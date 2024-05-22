@@ -48,7 +48,7 @@
                     if (chatgptMessage) {
                         let messageText = chatgptMessage.innerHTML;
                         messageText = messageText.replace(/<div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>(.*?)<\/span>.*?<\/div>/g, (match, p1) => {
-                            return `\n\`\`\`\`${p1}\n`;
+                            return `\n\`\`\`${p1}\n`;
                         });
                         messageText = messageText.replace(/<\/div><\/div><div class="overflow-y-auto p-4 text-left undefined" dir="ltr">/g, "");
                         messageText = messageText.replace(/<\/div><\/div><\/pre>/g, "\`\`\`\n");
