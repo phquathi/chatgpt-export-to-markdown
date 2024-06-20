@@ -6,7 +6,7 @@
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 
-Based on Tampermonkey script, one-click export of complete Q&A conversations with ChatGPT.
+Based on Tampermonkey and `turndown` script, one-click export of complete Q&A conversations with ChatGPT.
 
 [简体中文](README.md) | [English](README_en.md)
 
