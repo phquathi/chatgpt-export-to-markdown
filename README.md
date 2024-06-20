@@ -6,7 +6,7 @@
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](https://daringfireball.net/projects/markdown/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
 
-基于油猴脚本的一键导出与chatgpt的“一问一答”完整对话形式
+基于油猴脚本与`turndown`的一键导出与chatgpt的“一问一答”完整对话形式
 
 [简体中文](README.md) | [English](README_en.md)
 
@@ -19,8 +19,6 @@
 
 
 ## 安装
-
-
 
 ### 前提条件
 
@@ -85,3 +83,18 @@ Sure! The theory of relativity, developed by Albert Einstein, includes both the 
 **请享受无缝导出的体验！**
 
 **注意**：由于OpenAI更新速度较快，请及时提交issue以匹配新的元素。
+
+---
+
+## 更新日志
+
+### 大更新 1.2.0 (2024-06-21):
+
+- 引入`turndown`库来支持更多的md语法！`turndown`库仓库链接：[点击访问](https://github.com/mixmark-io/turndown)
+- 支持大部分md语法
+- 支持latex表达式
+
+
+### 1.0.1 (2024-06-20): 
+
+- 匹配了最新的元素
