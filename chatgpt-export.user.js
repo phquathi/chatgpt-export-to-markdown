@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        chatgpt export to markdown
 // @namespace   phquathi
-// @version     1.2.0
+// @version     1.2.1
 // @description Based on Tampermonkey script, one-click export of complete Q&A conversations with ChatGPT.
 // @author      phquathi
 // @match       *://chatgpt.com/*
@@ -87,7 +87,8 @@
 
 
                 chatItems.forEach((item) => {
-                    const userMessage = item.querySelector('[data-message-author-role="user"] .markdown.prose.w-full.break-words');
+                    const userMessage = item.querySelector('[data-message-author-role="user"] [class*="relative"][class*="max-w-[70%]"][class*="rounded-3xl"][class*="bg-[#f4f4f4]"][class*="px-5"][class*="py-2.5"][class*="dark:bg-token-main-surface-secondary"]');
+                    //relative max-w-[70%] rounded-3xl bg-[#f4f4f4] px-5 py-2.5 dark:bg-token-main-surface-secondary
                     const chatgptMessage = item.querySelector('[data-message-author-role="assistant"] .markdown.prose.w-full.break-words');
 
                     if (userMessage) {
