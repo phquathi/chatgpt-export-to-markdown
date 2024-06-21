@@ -88,6 +88,11 @@ Sure! The theory of relativity, developed by Albert Einstein, includes both the 
 
 ## 更新日志
 
+### 1.2.1 (2024-06-22):
+
+- 匹配了最新的元素
+
+
 ### 大更新 1.2.0 (2024-06-21):
 
 - 引入`turndown`库来支持更多的md语法！`turndown`库仓库链接：[点击访问](https://github.com/mixmark-io/turndown)
